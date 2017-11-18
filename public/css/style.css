@@ -1,0 +1,240 @@
+/*Normalize styles*/
+.sectionOffset{
+  margin-bottom:30px;
+}
+.noPadding{
+padding:0 !important;
+}
+
+.lrPadding{
+padding-left:5px !important;
+padding-right:5px !important;
+}
+
+/*Navbar*/
+.mainNavbar{
+    background-color: #3b5896;
+}
+.mainNavbar .nav-item a{
+  color:#fff;
+}
+.loggedInUserName{
+  font-size: 1em;
+  font-weight: bold;
+  color: #cdbfe3;
+  padding: .5rem 1rem .5rem 0.2rem;
+}
+
+/**/
+.headerMTop{
+  margin-top:107px;
+}
+.bgSignUP{
+background-image: url(../img/bgImg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+width:100%;
+}
+.bgColor{
+  /*background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 73.52%);*/
+background:#000;
+opacity:0.8;
+/*background: -webkit-linear-gradient(8deg, rgba(41,176,124,0.7) 12%, rgba(39,175,124,0.7) 13%, rgba(25,172,135,0.7) 26%, rgba(3,168,154,0.7) 48%, rgba(0,168,157,0.7) 51%, rgba(0,168,157,0.7) 52%, rgba(0,168,157,0.8) 82%, rgba(0,168,157,0.8) 100%);*/
+}
+
+.bgSignUP .registerText a{
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.bgSignUP .registerText a:hover,
+.bgSignUP .registerText a:active,
+.bgSignUP .registerText a:focus
+{
+color:#888 !important;
+}
+
+.bgSignUP input,
+.bgSignUP input:focus,
+.bgSignUP input:active,
+.bgSignUP input:-webkit-autofill{
+  background: none !important;
+  background-color: transparent !important;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ecebef;
+  border-radius:0px;
+  color:#fff;
+}
+.bgSignUP input.form-control:valid {
+  background-color: #00FF7F;
+}
+
+.bgSignUP input::placeholder {
+  color: #f0eff4;
+}
+
+.bgSignUP select,
+.bgSignUP select:focus,
+.bgSignUP select:-webkit-autofill,
+.bgSignUP select:active{
+  background-color: #3b5896 !important;
+  outline: none;
+  border-radius:0px;
+  color:#fff;
+}
+.bgSignUP .form-check{
+    margin-bottom:0 !important;
+}
+.bgSignUP input[type=checkbox]{
+  width: 15px !important;
+  height: 15px !important;
+  margin-right:5px;
+}
+
+.bgSignUP select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.bgSignUP .input-group .input-group-addon {
+  background: none !important;
+  border: medium none;
+  color: #fff;
+  border-bottom: 1px solid #ecebef;
+  border-radius: 0;
+}
+
+.signInBtn{
+  background-color: #626262;
+  color:#fff;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 35px;
+  height: 35px;
+  margin: -42px 0 0 -12px;
+  background: #fff;
+  border:1px solid #000;
+  transform: rotate(45deg);
+  animation: spin 1s infinite linear;
+  z-index:9999;
+}
+@keyframes spin {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+.bgSignUP input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
+    -webkit-text-fill-color: #fff !important;
+}
+/*Offer Available*/
+
+/*not found Page*/
+.notFoundPage .jumbotron-fluid{
+  height:100vh !important;
+  margin-bottom:0px !important;
+}
+
+/*smart Product*/
+.commentSection{
+height:395px !important;
+overflow-y: scroll;
+width:100%;
+}
+.suggestionSection{
+  height:520px !important;
+  overflow-y: scroll;
+  width:100%;
+}
+.suggestionSection,
+.commentSection ul{
+  list-style-type: none;
+  padding-left:0;
+}
+.suggestionSection .like,
+.commentSection .like{
+cursor:pointer;
+}
+.bg-grey{
+background-color: #f2f2f2;
+}
+.bg-darkGrey{
+background-color: #efefef;
+}
+.text-grey{
+  color:#aaa;
+}
+.userInfo .commentedTime{
+  font-size:14px;
+  vertical-align: baseline;
+}
+.userInfo .userComment{
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-bottom:5px;
+}
+.productWrapper .productVR{
+  width:100% !important;
+  /*width:650px !important;*/
+  height:405px !important;
+  /*background-color: grey;*/
+}
+.productWrapper .productFooter p{
+  line-height: 1.2em;
+}
+.productDescription{
+  line-height: 1.2em;
+margin-bottom: 10px;
+}
+.productWrapper .productFooter .shareBtn{
+font-size:1.75rem;
+}
+.productRating,.productIcons{
+  font-size: 1.2rem;
+}
+.suggestedProductRating{
+    font-size: 1rem;
+}
+/*nav pill section*/
+.productFeatures .nav-pills .nav-link.active,.productFeatures .show>.nav-pills .nav-link {
+    color: #17a2b8;
+    background-color: #fff;
+}
+.productFeatures .nav-pills,.productFeatures .nav-pills .nav-link {
+    color: #888;
+    background-color: #fff;
+}
+.productFeatures .nav-pills .nav-link{
+position: relative;
+}
+.productFeatures .nav-pills .nav-link.active:after{
+  content: '↓';
+  position: absolute;
+  bottom: -15px;
+  left: 49%;
+}
+.productFeatures .tab-content{
+  min-height:372px !important;
+  background-color: #fff;
+}
+.scrollBar::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+}
+.scrollBar::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+.scrollBar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+.shareThought{
+  resize:none;
+}
