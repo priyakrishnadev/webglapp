@@ -1,4 +1,5 @@
 import React from 'react';
+import * as THREE from 'three';
 import DDSLoader from './utils/DDSLoader';
 import MTLLoader from './utils/MTLLoader';
 import OBJLoader from './utils/OBJLoader';
